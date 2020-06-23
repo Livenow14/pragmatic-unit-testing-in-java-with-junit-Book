@@ -13,6 +13,7 @@ class ScoreCollectionTest {
 
         //when
         int actualResult = collection.arithmeticMean();
+        System.out.println("actualResult = " + actualResult);
 
         //then
         assertThat(actualResult).isEqualTo(6);

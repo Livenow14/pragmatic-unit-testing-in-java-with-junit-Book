@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e2d2d239-53e6-4784-b739-5c2056ad8f20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Chapter01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pragmatic-unit-testing-in-java-with-junit-Book.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/6.1.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/6.1.1/fileContent/fileContent.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/6.1.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/build/classes/java/main/ScoreCollection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/build/classes/java/main/Scoreable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/build/classes/java/test/ScoreCollectionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/build/reports/tests/test/classes/ScoreCollectionTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/build/test-results/test/TEST-ScoreCollectionTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter01/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter02/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter02/src/main/java/Answer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter02/src/main/java/Bool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter02/src/main/java/BooleanQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter02/src/main/java/Criteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter02/src/main/java/Criterion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter02/src/main/java/PercentileQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter02/src/main/java/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter02/src/main/java/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter02/src/main/java/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter02/src/main/java/ScoreCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter02/src/main/java/Scoreable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter02/src/main/java/Weight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter02/src/test/java/ProfileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter02/src/test/java/ProfileTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01/.idea/codeStyles" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter01/src/test/java/ScoreCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter01/src/test/java/ScoreCollectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02/.idea/codeStyles" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter02/src/main/java/test.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Chapter02">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Chpater01">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/untitled">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ditVsJNpDdsNEfk7PEgjeBrnLS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter02/src/main/java" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tae Jeong\Desktop\대학관련자료\개인공부\자바와 JUnit을 활용한 실용주의 단위 테스트\pragmatic-unit-testing-in-java-with-junit-Book\Chapter02\src\main\java" />
+      <recent name="C:\Users\Tae Jeong\Desktop\대학관련자료\개인공부\자바와 JUnit을 활용한 실용주의 단위 테스트\pragmatic-unit-testing-in-java-with-junit-Book\Chapter02" />
+      <recent name="C:\Users\Tae Jeong\Desktop\대학관련자료\개인공부\자바와 JUnit을 활용한 실용주의 단위 테스트\pragmatic-unit-testing-in-java-with-junit-Book\Chapter02\src" />
+      <recent name="C:\Users\Tae Jeong\Desktop\대학관련자료\개인공부\자바와 JUnit을 활용한 실용주의 단위 테스트\pragmatic-unit-testing-in-java-with-junit-Book\Chpater01\src" />
+      <recent name="C:\Users\Tae Jeong\Desktop\대학관련자료\개인공부\자바와 JUnit을 활용한 실용주의 단위 테스트\pragmatic-unit-testing-in-java-with-junit-Book\Chpater01" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProfileTest2.matchAnswersFalseWhenMustMatchCriteriaNotMet">
+    <configuration name="ProfileTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chapter02.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProfileTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileTest2.matchAnswerFalseWhenMustMatchCriteriaNotMet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chapter02.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProfileTest2" />
+      <option name="METHOD_NAME" value="matchAnswerFalseWhenMustMatchCriteriaNotMet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileTest2.matchAnswersFalseWhenMustMatchCriteriaNotMet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chapter02.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProfileTest2" />
+      <option name="METHOD_NAME" value="matchAnswersFalseWhenMustMatchCriteriaNotMet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileTest.matchAnswersTrueForAnyDontCareCriteria" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chapter02.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProfileTest" />
+      <option name="METHOD_NAME" value="matchAnswersTrueForAnyDontCareCriteria" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileTest.mathAnswerFalseWhenMustMatchCriteriaNotMet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chapter02.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProfileTest" />
+      <option name="METHOD_NAME" value="mathAnswerFalseWhenMustMatchCriteriaNotMet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProfileTest2.matchAnswersFalseWhenMustMatchCriteriaNotMet" />
+        <item itemvalue="JUnit.ProfileTest2.matchAnswerFalseWhenMustMatchCriteriaNotMet" />
+        <item itemvalue="JUnit.ProfileTest.mathAnswerFalseWhenMustMatchCriteriaNotMet" />
+        <item itemvalue="JUnit.ProfileTest2" />
+        <item itemvalue="JUnit.ProfileTest.matchAnswersTrueForAnyDontCareCriteria" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2d2d239-53e6-4784-b739-5c2056ad8f20" name="Default Changelist" comment="" />
+      <created>1592919767601</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592919767601</updated>
+      <workItem from="1592919769569" duration="566000" />
+      <workItem from="1592920352031" duration="5536000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="505" y="130" key="#Project_Structure" timestamp="1592919850583">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="505" y="130" key="#Project_Structure/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592919850583" />
+    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592927874990">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592927874990" />
+    <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1592927904155">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592927904155" />
+    <state x="255" y="123" key="CommitChangelistDialog2" timestamp="1592921111801">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="255" y="123" key="CommitChangelistDialog2/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592921111801" />
+    <state x="802" y="245" width="441" height="620" key="FileChooserDialogImpl" timestamp="1592920233995">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="802" y="245" width="441" height="620" key="FileChooserDialogImpl/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592920233995" />
+    <state width="2005" height="432" key="GridCell.Tab.0.bottom" timestamp="1592928174065">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="432" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592928174065" />
+    <state width="2005" height="432" key="GridCell.Tab.0.center" timestamp="1592928174065">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="432" key="GridCell.Tab.0.center/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592928174065" />
+    <state width="2005" height="432" key="GridCell.Tab.0.left" timestamp="1592928174065">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="432" key="GridCell.Tab.0.left/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592928174065" />
+    <state width="2005" height="432" key="GridCell.Tab.0.right" timestamp="1592928174065">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="432" key="GridCell.Tab.0.right/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592928174065" />
+    <state x="505" y="130" key="SettingsEditor" timestamp="1592927601839">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="505" y="130" key="SettingsEditor/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592927601839" />
+    <state x="744" y="447" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1592927837191">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="744" y="447" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592927837191" />
+    <state x="796" y="338" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592926233048">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="796" y="338" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592926233048" />
+    <state x="2278" y="278" width="1118" height="632" key="dock-window-1" timestamp="1592926399568">
+      <screen x="2560" y="0" width="864" height="1496" />
+    </state>
+    <state x="2278" y="278" width="1118" height="632" key="dock-window-1/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592926399568" />
+    <state x="436" y="155" key="new project wizard" timestamp="1592920283861">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="436" y="155" key="new project wizard/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592920283861" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1592927598712">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592927598712" />
+  </component>
+</project>
