@@ -2,6 +2,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import java.io.*;
 import java.util.*;
 
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -140,16 +141,19 @@ public class AssertTest {
 
    /**
     * 예외를 기대하는 방법
+    * contain보단 hasMessage로 전문을 포함하는것이 더 좋다!
     */
 
    @Test
+   @DisplayName(value = "예외 던져지는지 확인")
    public void throwsWhenWithdrawingTooMuch(){
-      Exception exception = assertThrows(
-              InsufficientFundsException.class,
-              () -> account.withdraw(100));
-
-      assertThat(exception.getMessage()).contains("balance only");
+      account.deposit(40);
+      assertThatThrownBy(()->account.withdraw(50)).isInstanceOf(InsufficientFundsException.class)
+              .hasMessage("balance only 40");
    }
+  // Chapter02_JUnit 단언 깊게 파기_예외 던지는 방법 수정, 추가
+
+
 
    /**
     * 컬렉션에 가지고 있는지 확인
