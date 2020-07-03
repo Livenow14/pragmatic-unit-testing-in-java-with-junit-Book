@@ -151,7 +151,6 @@ public class AssertTest {
       assertThatThrownBy(()->account.withdraw(50)).isInstanceOf(InsufficientFundsException.class)
               .hasMessage("balance only 40");
    }
-  // Chapter02_JUnit 단언 깊게 파기_예외 던지는 방법 수정, 추가
 
 
 

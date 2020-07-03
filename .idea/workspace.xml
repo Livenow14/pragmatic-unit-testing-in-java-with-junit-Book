@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2d2d239-53e6-4784-b739-5c2056ad8f20" name="Default Changelist" comment="Chapter02_JUnit 단언 깊게 파기_예외 던지는 방법 수정, 추가">
+      <change afterPath="$PROJECT_DIR$/Chapter04/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter03/src/test/java/AssertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter03/src/test/java/AssertTest.java" afterDir="false" />
     </list>
@@ -15,6 +21,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/Chapter03">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Chapter04">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/Chpater01">
@@ -72,7 +81,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter03/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -95,7 +104,16 @@
       <recent name="C:\Users\Tae Jeong\Desktop\대학관련자료\개인공부\자바와 JUnit을 활용한 실용주의 단위 테스트\pragmatic-unit-testing-in-java-with-junit-Book\Chpater01\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AssertHamcrestTest.assertDoublesCloseTo">
+  <component name="RunManager" selected="JUnit.AssertHamcrestTest">
+    <configuration name="AssertHamcrestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Chapter03.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssertHamcrestTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AssertHamcrestTest.assertDoublesCloseTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Chapter03.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -111,16 +129,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AssertTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssertTest.testWithWorthlessAssertionComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Chapter03.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AssertTest" />
-      <option name="METHOD_NAME" value="testWithWorthlessAssertionComment" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AssertHamcrestTest" />
         <item itemvalue="JUnit.AssertHamcrestTest.assertDoublesCloseTo" />
         <item itemvalue="JUnit.AssertTest.throwsWhenWithdrawingTooMuch" />
         <item itemvalue="JUnit.AssertTest.throwsWhenWithdrawingSafely" />
         <item itemvalue="JUnit.AssertTest" />
-        <item itemvalue="JUnit.AssertTest.testWithWorthlessAssertionComment" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +175,10 @@
       <updated>1592919767601</updated>
       <workItem from="1592919769569" duration="566000" />
       <workItem from="1592920352031" duration="5536000" />
-      <workItem from="1593321991442" duration="7940000" />
+      <workItem from="1593321991442" duration="9072000" />
+      <workItem from="1593429759635" duration="4604000" />
+      <workItem from="1593522198163" duration="3108000" />
+      <workItem from="1593698162691" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="Chapter02_JUnit 단언 깊게 파기">
       <created>1593328656413</created>
@@ -176,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593328656413</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Chapter02_JUnit 단언 깊게 파기_예외 던지는 방법 수정, 추가">
+      <created>1593329998041</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593329998041</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,13 +203,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Chapter02_JUnit 단언 깊게 파기" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter02_JUnit 단언 깊게 파기" />
+    <MESSAGE value="Chapter02_JUnit 단언 깊게 파기_예외 던지는 방법 수정, 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter02_JUnit 단언 깊게 파기_예외 던지는 방법 수정, 추가" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="379" y="96" key="#Project_Structure" timestamp="1593326146422">
+    <state x="379" y="96" key="#Project_Structure" timestamp="1593743588814">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="379" y="96" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1593326146422" />
+    <state x="379" y="96" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1593743588814" />
     <state x="505" y="130" key="#Project_Structure/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592919850583" />
     <state x="479" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592927874990">
       <screen x="0" y="0" width="2048" height="1112" />
@@ -201,49 +220,59 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="830" y="272" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592927904155" />
-    <state x="65" y="12" key="CommitChangelistDialog2" timestamp="1593329984481">
+    <state x="65" y="12" key="CommitChangelistDialog2" timestamp="1593446081209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="65" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593329984481" />
+    <state x="65" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593446081209" />
     <state x="255" y="123" key="CommitChangelistDialog2/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592921111801" />
-    <state x="602" y="182" width="338" height="460" key="FileChooserDialogImpl" timestamp="1593322089049">
+    <state x="177" y="71" key="DiffContextDialog" timestamp="1593446080992">
       <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="177" y="71" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1593446080992" />
+    <state x="803" y="246" width="338" height="460" key="FileChooserDialogImpl" timestamp="1593589032790">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="602" y="182" width="338" height="460" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593322089049" />
+    <state x="803" y="246" key="FileChooserDialogImpl/0.0.2048.1112/-1920.0.1536.824@0.0.2048.1112" timestamp="1593589032790" />
     <state x="802" y="245" width="441" height="620" key="FileChooserDialogImpl/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592920233995" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1593329978363">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1593446713990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593329978363" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593446713990" />
     <state width="2005" height="432" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592928174065" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1593329978363">
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1593446713989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593329978363" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593446713989" />
     <state width="2005" height="432" key="GridCell.Tab.0.center/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592928174065" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1593329978363">
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1593446713989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593329978363" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593446713989" />
     <state width="2005" height="432" key="GridCell.Tab.0.left/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592928174065" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1593329978363">
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1593446713989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593329978363" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593446713989" />
     <state width="2005" height="432" key="GridCell.Tab.0.right/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592928174065" />
-    <state x="379" y="0" key="SettingsEditor" timestamp="1593323694973">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="505" y="0" key="SettingsEditor" timestamp="1593589061852">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="379" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593323694973" />
+    <state x="505" y="0" key="SettingsEditor/0.0.2048.1112/-1920.0.1536.824@0.0.2048.1112" timestamp="1593589061852" />
     <state x="505" y="130" key="SettingsEditor/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592927601839" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1593327477976">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1593327477976" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1593328661218">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1593330000938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593328661218" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593330000938" />
+    <state x="459" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1593429963706">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="459" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593429963706" />
     <state x="744" y="447" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1592927837191">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -256,10 +285,15 @@
       <screen x="2560" y="0" width="864" height="1496" />
     </state>
     <state x="2278" y="278" width="1118" height="632" key="dock-window-1/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592926399568" />
-    <state x="327" y="27" key="new project wizard" timestamp="1593322102366">
+    <state x="459" y="143" width="618" height="538" key="find.popup" timestamp="1593524979693">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="459" y="143" width="618" height="538" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1593524979693" />
+    <state x="436" y="36" key="new project wizard" timestamp="1593589052648">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
     <state x="327" y="27" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1593322102366" />
+    <state x="436" y="36" key="new project wizard/0.0.2048.1112/-1920.0.1536.824@0.0.2048.1112" timestamp="1593589052648" />
     <state x="436" y="155" key="new project wizard/0.0.2048.1112/2560.0.864.1496@0.0.2048.1112" timestamp="1592920283861" />
     <state x="515" y="180" width="672" height="503" key="search.everywhere.popup" timestamp="1593323674291">
       <screen x="0" y="0" width="1536" height="824" />
