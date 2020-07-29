@@ -36,6 +36,7 @@
             <option value="$PROJECT_DIR$/Chapter04" />
           </set>
         </option>
+        <option name="useAutoImport" value="true" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
